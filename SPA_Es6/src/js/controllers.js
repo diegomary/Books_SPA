@@ -1,5 +1,5 @@
 function listCtrl ($http, $interval, $timeout, getApi) {
-  getApi.allData('http://booksapi-diegomary.rhcloud.com/booksfromdb').then((response) => {
+  getApi.allData('http://localhost:3000/booksfromdb').then((response) => {
     if(response) this.allBooks = response.data; else alert("Error loading data");
   });
 }
