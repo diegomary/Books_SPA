@@ -1,0 +1,18 @@
+{
+  "name": "rest-api-books",
+  "version": "1.0.1",
+  "description": "Example of Rest implementation for books",
+  "private": true,
+  "main": "start.js",
+  "scripts": {
+    "start": "node --use_strict start.js"
+  },
+  "author": "David Diego Aldo Burlando",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongodb": "^2.2.25"
+  }
+}

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <style>.active { color: red; font-weight: bold; }</style>
+  </head>
+  <body class="intro" ng-app="bookapp">
+    <button ui-sref="blist" ui-sref-active="active">List of Books</button>
+    &nbsp;
+    <button ui-sref="bsearch" ui-sref-active="active">Search a book</button>
+    <ui-view></ui-view>
+  </body>
+</html>
